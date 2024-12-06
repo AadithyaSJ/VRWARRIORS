@@ -1,16 +1,19 @@
 import React from 'react'
+import HeroSection from '../components/Herosection'
+import ProblemStatement from '../components/ProblemStatement'
+import Solution from '../components/Solution'
+import KeyTechnologies from '../components/KeyTechnologies'
+import CaseStudies from '../components/CaseStudies'
 
 const Home = () => {
   return (
     <>
-    <section className=" p-10 text-center">
-    <h1 className="text-4xl font-bold text-gray-800">Welcome to <span className='text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-red-500'>VR WARRIORS</span></h1>
-      
-  </section>
+    <HeroSection />
+    <ProblemStatement />
+    <Solution />
+    <KeyTechnologies />
+    <CaseStudies />
     </>
-   
-
-
   )
 }
 
