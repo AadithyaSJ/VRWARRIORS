@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.video-background{
+    filter: blur(1px);
+}
+
+/* index.css or global.css */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif; /* Or any font you'd prefer */
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  #root {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
